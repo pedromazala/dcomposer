@@ -18,4 +18,7 @@ sudo chmod +x /usr/local/bin/composer
 
 #### 2. Windows
 
-Soon
+```powershell
+set-executionpolicy remotesigned
+{DCOMPOSER_FOLDER}/composer.ps1 install
+```
